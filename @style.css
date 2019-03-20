@@ -1,0 +1,96 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header { 
+    padding: 50px 0 65px;
+}
+
+footer { 
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    grid-gap: 4%;
+    margin: 0 0 0 4%;
+    padding: 50px 0;
+}
+
+footer p,
+footer a {
+    color: #aaa;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,
+h3,
+aside,
+p {
+  font-family: "halyard-display", sans-serif;  
+}
+
+h2,
+h4 {
+    font-family: "halyard-micro", sans-serif;
+    font-weight: 100;
+}
+
+h1 { 
+    font-size: 300%; 
+    line-height: 125%;
+    text-transform: uppercase;
+}
+
+h2 { 
+    float: left;
+    font-size: 100%; 
+    font-weight: 400;
+    padding-left: 4%;
+}
+
+h3 { 
+    float: right;
+    font-size: 100%; 
+    font-weight: 400;
+    padding-right: 4%;
+}
+
+strike {
+    color: #aaa;
+}
+
+h4 {
+    color: #aaa;
+    font-size: 100%; 
+}
+
+aside { 
+    color: #333;
+    font-size: 90%; 
+    font-weight: 400;
+}
+
+aside em {
+    color: #ccc;
+    font-family: "freight-micro-pro",serif;
+    font-weight: 400;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    grid-gap: 4%;
+    margin: 0 0 0 4%;
+}
+
+figure {
+    margin-bottom: 50px;
+}
+
+figure img {
+    margin: 10px auto 15px;
+    width: 100%;
+    -webkit-box-shadow: 0 20px 10px -10px #ccc;
+    -moz-box-shadow: 0 20px 10px -10px #ccc;
+    box-shadow: 0 20px 10px -10px #ccc;
+}
