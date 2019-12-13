@@ -9,6 +9,7 @@ header {
 
 footer { 
     display: grid;
+    display: none;
     grid-template-columns: 21% 21% 21% 21%;
     grid-gap: 4%;
     margin: 0 0 0 4%;
