@@ -240,9 +240,6 @@ website:    http://magic.singles
     footer {
         border-top: 2px solid black; 
         margin-bottom: 10vw;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding: 1rem 0 0;
     }
 
     footer span { 
@@ -257,12 +254,6 @@ website:    http://magic.singles
     }
 
     footer .social a:hover { color: rgba(255, 224, 0, 0.7); }
-
-    .arashikage {
-        font-size: 200%;
-        line-height: 1.8vw;
-        text-align: right;
-    }
 
 /* WEE SCREENS */
 
