@@ -230,6 +230,7 @@ website:    http://magic.singles
 
     section.ofthedarkrealms figure img {
         border-radius: 10%;
+        width: 50%;
     }
 
 /* SECTION -- FOOTER */
