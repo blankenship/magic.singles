@@ -208,32 +208,9 @@ website:    http://magic.singles
         border-top-right-radius: 50%;
     } 
 
-     /* COLLAGE */
-
-    section figure.collage {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 0 auto 1rem;
-    }
-    section figure.collage img:nth-child(1) { 
-        width: 100%; 
-        z-index: 1;
-    }
-    section figure.collage img:nth-child(2) { 
-        border-radius: 100%; 
-        margin: 25% 0 0 -50%; 
-        width: 150%; 
-        z-index: 0;
-    }
-    section figure.collage img:nth-child(3) { 
-        margin: -23% 0 0 25%; 
-        width: 115%; 
-        z-index: -1;
-    }
-    section figure.collage img:nth-child(4) { 
-        margin: -23% 0 0 25%; 
-        width: 75%; 
-        z-index: -2;
+    section.ofthedarkrealms {
+        background: #000;
+        color: #fff;
     }
 
     section figcaption { 
