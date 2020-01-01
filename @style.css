@@ -62,10 +62,14 @@ website:    http://magic.singles
         line-height: 1.5;
         overflow-x: hidden;
         background: white;
+        padding: 0 10vw;
         max-width: 1400px;
     }
 
     header {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 10%;
         margin: 0 auto 5vw;
         padding: 0;
     }
