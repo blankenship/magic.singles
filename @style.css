@@ -78,13 +78,13 @@ website:    http://magic.singles
     .inset {
         padding: 0 5vw;
     }
-    
+
 /* TYPOGRAPHY */
 
     h1 {
         color: black;
         display: block;
-        font: 400 5vw/5vw "fakir-display-condensed-new", sans-serif;
+        font: 400 5vw/3vw "fakir-display-condensed-new", sans-serif;
         text-align: left;
         padding: 0;
     }
