@@ -1,97 +1,340 @@
-* {
-    margin: 0 auto;
-    text-align: center;
-}
+/* 
 
-header { 
-    padding: 50px 0 65px;
-}
+Styles:     magic.singles
 
-footer { 
-    display: grid;
-    display: none;
-    grid-template-columns: 21% 21% 21% 21%;
-    grid-gap: 4%;
-    margin: 0 0 0 4%;
-    padding: 50px 0;
-}
+version:    1.0 — 12/31/19 Update
+author:     Joshua Blankenship
+email:      joshua@blankenship.xyz
+website:    http://magic.singles
+          
+/* FOUNDATION */
 
-footer p,
-footer a {
-    color: #aaa;
-    font-weight: 400;
-    text-align: center;
-}
+    *, html, body, div, span, object, iframe,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li, img, figure, figcaption,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        -moz-box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased; 
+        font-smoothing: antialiased;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        }
 
-h1,
-h3,
-aside,
-p {
-  font-family: "halyard-display", sans-serif;  
-}
+    @keyframes hello {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
 
-h2,
-h4 {
-    font-family: "halyard-micro", sans-serif;
-    font-weight: 100;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-h1 { 
-    font-size: 300%; 
-    line-height: 125%;
-    text-transform: uppercase;
-}
+    html {
+        font-size: 16px;
+    }
 
-h2 { 
-    float: left;
-    font-size: 100%; 
-    font-weight: 400;
-    padding-left: 4%;
-}
+    @media(min-width:700px) {
+        html {
+            font-size: 16px
+        }
+    }
 
-h3 { 
-    float: right;
-    font-size: 100%; 
-    font-weight: 400;
-    padding-right: 4%;
-}
+    @media(min-width:1200px) {
+        html {
+            font-size: 17px
+        }
+    }
 
-strike {
-    color: #aaa;
-}
+    @media(min-width:1400px) {
+        html {
+            font-size: 18px
+        }
+    }
 
-h4 {
-    color: #aaa;
-    font-size: 100%; 
-}
+    body {
+        line-height: 1.5;
+        overflow-x: hidden;
+        background: white;
+        padding: 5vw 10vw;
+        max-width: 1400px;
+    }
 
-aside { 
-    color: #333;
-    font-size: 90%; 
-    font-weight: 400;
-}
+    header {
+        margin: 0 auto 5vw;
+        padding: 0;
+    }
 
-aside em {
-    color: #ccc;
-    font-family: "freight-micro-pro",serif;
-    font-weight: 400;
-}
+/* TYPOGRAPHY */
 
-main {
-    display: grid;
-    grid-template-columns: 21% 21% 21% 21%;
-    grid-gap: 4%;
-    margin: 0 0 0 4%;
-}
+    h1 {
+        color: black;
+        display: block;
+        font: 900 10vw/7.25vw "dharma-gothic-c", sans-serif;
+        margin-top: 10vw;
+        text-align: left;
+        text-transform: uppercase;
+        padding: 1rem 0 0 0;
+    }
 
-figure {
-    margin-bottom: 50px;
-}
+    h2 {
+        color: black;
+        font: 400 italic 1.6vw/2.2vw freight-text-pro, serif;
+        margin-bottom: 2.2vw;
+        text-align: left;
+    }
 
-figure img {
-    margin: 10px auto 15px;
-    width: 100%;
-    -webkit-box-shadow: 0 20px 10px -10px #ccc;
-    -moz-box-shadow: 0 20px 10px -10px #ccc;
-    box-shadow: 0 20px 10px -10px #ccc;
-}
+    h2 strong {
+        font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    a { 
+        color: black;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    a:hover { 
+        color: silver;  
+    }
+
+    .highlight {
+        background-color: rgba(255, 224, 0, 0.7);
+        opacity: 1;
+        display: inline;
+        padding: 0.2rem 0;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+    a.highlight:hover  {
+        background-color: rgba(255, 0, 243, 0.7);
+        color: black;
+    }
+
+    h3 {
+        background-color: black;
+        color: white;
+        font: 700 .9vw/.9vw "futura-pt-bold", sans-serif;
+        letter-spacing: 3px;
+        margin-bottom: 4vw;
+        padding: 2rem;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        color: black;
+        font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
+        text-transform: uppercase;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+   }
+
+   footer p {
+        text-align: center;
+   }
+   
+    footer.contact { 
+        background: white;
+        padding: 7% 0;
+    }
+
+    footer span { display: block; }
+
+
+
+/* SECTION -- DEM GRIDS */
+
+    section {
+        border-top: 2px solid black; 
+        margin-bottom: 10rem;
+        padding-top: 1rem;
+    }
+
+    section ul li { display: inline; }
+
+    .tres {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .quatro {
+        display: grid;
+        grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
+        grid-gap: 5%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    section figure img { 
+        display: block;
+        margin: 0 auto 1rem;
+        width: 100%;
+     }
+
+    section figure img { 
+        display: block;
+        margin: 0 auto 1rem;
+        width: 100%;
+     }
+
+    section figure img.logo { 
+        display: block;
+        margin: 2rem auto 3rem;
+        width: 50%;
+     }
+
+    section figure img.inset {
+        background-color: black;
+        border-radius: 1px;
+        padding: 10% 10% 16.5% 10%;
+    } 
+
+    section figure img.tombstone {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    } 
+
+     /* COLLAGE */
+
+    section figure.collage {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto 1rem;
+    }
+    section figure.collage img:nth-child(1) { 
+        width: 100%; 
+        z-index: 1;
+    }
+    section figure.collage img:nth-child(2) { 
+        border-radius: 100%; 
+        margin: 25% 0 0 -50%; 
+        width: 150%; 
+        z-index: 0;
+    }
+    section figure.collage img:nth-child(3) { 
+        margin: -23% 0 0 25%; 
+        width: 115%; 
+        z-index: -1;
+    }
+    section figure.collage img:nth-child(4) { 
+        margin: -23% 0 0 25%; 
+        width: 75%; 
+        z-index: -2;
+    }
+
+    section figcaption { 
+        color: black;
+        margin: 0 auto; 
+    }
+
+    section figcaption p {
+        font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
+    }
+
+    section figcaption p a {
+        font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
+    }
+
+/* SECTION -- FOOTER */
+
+    footer {
+        border-top: 2px solid black; 
+        margin-bottom: 10vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 1rem 0 0;
+    }
+
+    footer span { 
+        display: inline-block;
+        font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
+    }
+
+    footer .social a {
+        color: black;
+        font-size: 200%;
+        margin: 0 5px 20px;
+    }
+
+    footer .social a:hover { color: rgba(255, 224, 0, 0.7); }
+
+    .arashikage {
+        font-size: 200%;
+        line-height: 1.8vw;
+        text-align: right;
+    }
+
+/* WEE SCREENS */
+
+        @media (min-width: 801px) and (max-width: 1000px) {
+
+            .quatro {
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                    grid-column-gap: 10%;
+                }
+
+        }
+
+        @media (min-width: 100px) and (max-width: 800px) {
+
+        body {
+            padding: 5vw;
+        }
+
+        .tres,
+        .quatro {
+                display: block;
+                margin: 0 auto;
+                padding: 0;
+            }
+
+        h3 {
+            font: 700 .7rem/.7rem "futura-pt-bold", sans-serif;
+            margin-bottom: 10vw;
+            padding: 1rem;
+        }
+
+        h1 {
+            font: 900 18vw/13.4vw "dharma-gothic-c", sans-serif;
+        }
+
+        h2 {
+            font: 400 italic 1.25rem/1.75rem freight-text-pro, serif;
+            margin-bottom: 2rem;
+        }
+
+        h2 strong {
+            font: 700 .9rem/1.75rem "futura-pt-bold", sans-serif;
+        }
+
+        section figcaption p {
+            font: 400 1.25rem/1.75rem "futura-pt", sans-serif;
+            margin-bottom: 3.5rem;
+        }
+
+        section figcaption p a {
+            font: 1.25rem/1.75rem "futura-pt-bold", sans-serif;
+        }
+
+        footer .social a {
+            font-size: 300%;
+        }
+
+        }
