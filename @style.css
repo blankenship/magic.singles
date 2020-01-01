@@ -208,11 +208,6 @@ website:    http://magic.singles
         border-top-right-radius: 50%;
     } 
 
-    section.ofthedarkrealms {
-        background: #000;
-        color: #fff;
-    }
-
     section figcaption { 
         color: black;
         margin: 0 auto; 
@@ -224,6 +219,17 @@ website:    http://magic.singles
 
     section figcaption p a {
         font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
+    }
+
+/* SECTION -- OF THE DARK REALMS */
+
+    section.ofthedarkrealms {
+        background: #000;
+        color: #fff;
+    }
+
+    section.ofthedarkrealms img {
+        border-radius: 5px;
     }
 
 /* SECTION -- FOOTER */
