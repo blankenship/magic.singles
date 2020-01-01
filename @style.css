@@ -228,8 +228,8 @@ website:    http://magic.singles
         color: #fff;
     }
 
-    section.ofthedarkrealms img {
-        border-radius: 5px;
+    section.ofthedarkrealms figure img {
+        border-radius: 10%;
     }
 
 /* SECTION -- FOOTER */
