@@ -93,8 +93,15 @@ website:    http://magic.singles
         text-align: left;
     }
 
+ h3 {
+        font: 400 2rem/3rem "covik-sans", sans-serif;
+        margin-bottom: 6rem;
+        text-transform: uppercase;
+    }
+
     p {
         font: 400 1rem/1.5rem "covik-sans", sans-serif;
+        margin-bottom: 1.5rem;
     }
 
     a { 
@@ -121,14 +128,7 @@ website:    http://magic.singles
         color: black;
     }
 
-    h3 {
-        font: 400 2vw/2vw "fakir-display-condensed-new", sans-serif;
-        margin-bottom: 4vw;
-        padding: 2rem;
-        text-align: left;
-        text-transform: uppercase;
-    }
-
+   
     footer {
         margin: 0;
         padding: 0;
