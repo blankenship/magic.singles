@@ -317,10 +317,10 @@ website:    http://magic.singles
 
 #splash {
     background: black;
-    padding: calc(50vh-5rem);
-    text-align: center;
+    padding-top: calc(50vh-5rem);
     }
 
 #splash h1, h3, a {
     color: #fff;
+    text-align: center;
     }
