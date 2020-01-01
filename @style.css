@@ -64,7 +64,6 @@ website:    http://magic.singles
         line-height: 1.5;
         overflow-x: hidden;
         background: white;
-        padding: 0 5vw;
         max-width: 1400px;
     }
 
@@ -76,6 +75,10 @@ website:    http://magic.singles
         padding: 0;
     }
 
+    .inset {
+        padding: 0 5vw;
+    }
+    
 /* TYPOGRAPHY */
 
     h1 {
@@ -224,7 +227,7 @@ website:    http://magic.singles
 /* SECTION -- OF THE DARK REALMS */
 
     section.ofthedarkrealms {
-        background: #000;
+        background: #222;
         color: #fff;
     }
 
