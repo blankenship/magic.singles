@@ -81,16 +81,15 @@ website:    http://magic.singles
     h1 {
         color: black;
         display: block;
-        font: 400 10vw/7.25vw "fakir-display-condensed-new", sans-serif;
+        font: 400 5vw/5vw "fakir-display-condensed-new", sans-serif;
         text-align: left;
-        text-transform: uppercase;
         padding: 0;
     }
 
     h2 {
         color: black;
-        font: 400 1.6vw/2.2vw "fakir-display-condensed-new", serif;
-        margin-bottom: 2.2vw;
+        font: 400 3vw/3vw "fakir-display-condensed-new", serif;
+        margin-bottom: 3vw;
         text-align: left;
     }
 
@@ -123,7 +122,7 @@ website:    http://magic.singles
     }
 
     h3 {
-        font: 400 .9vw/.9vw "fakir-display-condensed-new", sans-serif;
+        font: 400 2vw/2vw "fakir-display-condensed-new", sans-serif;
         margin-bottom: 4vw;
         padding: 2rem;
         text-align: left;
