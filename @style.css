@@ -157,6 +157,14 @@ website:    http://magic.singles
 
     section ul li { display: inline; }
 
+    .dos {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 10%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .tres {
         display: grid;
         grid-template-columns: 30% 30% 30%;
