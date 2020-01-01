@@ -64,7 +64,7 @@ website:    http://magic.singles
         line-height: 1.5;
         overflow-x: hidden;
         background: white;
-        padding: 0 10vw;
+        padding: 0 5vw;
         max-width: 1400px;
     }
 
@@ -150,16 +150,14 @@ website:    http://magic.singles
 /* SECTION -- DEM GRIDS */
 
     section {
-        border-top: 2px solid black; 
-        margin-bottom: 10rem;
-        padding-top: 1rem;
+        margin: 10rem auto;
     }
 
     section ul li { display: inline; }
 
     .dos {
         display: grid;
-        grid-template-columns: 45% 45%;
+        grid-template-columns: 40% 50%;
         grid-gap: 10%;
         margin: 0 auto;
         padding: 0;
