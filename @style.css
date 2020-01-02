@@ -61,6 +61,8 @@ website:    http://magic.singles
     }
 
     body {
+        background: #d6d7cf;
+        color: #393939;
         line-height: 1.5;
         overflow-x: hidden;
         background: white;
@@ -82,7 +84,7 @@ website:    http://magic.singles
 /* TYPOGRAPHY */
 
     h1 {
-        color: black;
+        color: #393939;
         display: block;
         font: 400 5vw/5vw "fakir-display-condensed-new", sans-serif;
         text-align: left;
@@ -90,7 +92,7 @@ website:    http://magic.singles
     }
 
     h2 {
-        color: black;
+        color: #393939;
         font: 400 3vw/3vw "fakir-display-condensed-new", serif;
         margin-bottom: 3vw;
         text-align: left;
@@ -108,7 +110,7 @@ website:    http://magic.singles
     }
 
     a { 
-        color: black;
+        color: #393939;
         display: inline-block;
         text-decoration: none;
     }
@@ -128,7 +130,7 @@ website:    http://magic.singles
 
     a.highlight:hover  {
         background-color: rgba(255, 0, 243, 0.7);
-        color: black;
+        color: #393939;
     }
 
    
@@ -141,14 +143,6 @@ website:    http://magic.singles
         text-align: center;
    }
    
-    footer.contact { 
-        background: white;
-        padding: 7% 0;
-    }
-
-    footer span { display: block; }
-
-
 
 /* SECTION -- DEM GRIDS */
 
@@ -201,7 +195,7 @@ website:    http://magic.singles
      }
 
     section figure img.inset {
-        background-color: black;
+        background-color: #393939;
         border-radius: 1px;
         padding: 10% 10% 16.5% 10%;
     } 
@@ -212,7 +206,7 @@ website:    http://magic.singles
     } 
 
     section figcaption { 
-        color: black;
+        color: #393939;
         margin: 0 auto; 
     }
 
@@ -227,8 +221,8 @@ website:    http://magic.singles
 /* SECTION -- OF THE DARK REALMS */
 
     section.ofthedarkrealms {
-        background: #222;
-        color: #fff;
+        background: #393939;
+        color: #d6d7cf;
     }
 
     section.ofthedarkrealms figure img {
@@ -238,7 +232,7 @@ website:    http://magic.singles
 /* SECTION -- FOOTER */
 
     footer {
-        border-top: 2px solid black; 
+        border-top: 2px solid #393939; 
         margin-bottom: 10vw;
     }
 
@@ -248,7 +242,7 @@ website:    http://magic.singles
     }
 
     footer .social a {
-        color: black;
+        color: #393939;
         font-size: 200%;
         margin: 0 5px 20px;
     }
@@ -316,11 +310,11 @@ website:    http://magic.singles
 
 
 #splash {
-    background: black;
-    padding-top: calc(50vh-5rem);
+    background: #393939;
+    padding-top: calc(50vh - 5rem);
     }
 
 #splash h1, h3, a {
-    color: #fff;
+    color: #d6d7cf;
     text-align: center;
     }
