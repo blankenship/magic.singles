@@ -219,12 +219,13 @@ website:    http://magic.singles
     }
 
     section.ofthedarkrealms figure img {
+        border: 1px solid #191919;
         border-radius: 5%;
-        box-shadow: 0 20px 10px -10px #292929;
+        box-shadow: 0 20px 10px -10px #191919;
     }
 
-    section.ofthedarkrealms figcaption {
-        font-size: 1rem;
+    section.ofthedarkrealms figcaption p {
+        font-size: .8rem;
         text-align: center;
     }
 
