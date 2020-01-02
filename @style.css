@@ -249,11 +249,15 @@ website:    http://magic.singles
     }
 
     aside {
-        background: #393939;
+        background: #fff;
         border-radius: .7em;
-        color: #d6d7cf;
-        margin-top: 2em;
+        color: #393939;
+        margin: 2em;
         padding: 2em 2em 3rem;        
+    }
+
+    aside h4 {
+        color: #d6d7cf;
     }
 
     aside p {
