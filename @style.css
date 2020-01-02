@@ -230,12 +230,12 @@ website:    http://magic.singles
 
     section.ofthedarkrealms figure img {
         border: 1px solid #191919;
-        border-radius: 5%;
-        box-shadow: 0 20px 10px -10px #191919;
+        border-radius: 6%;
+        box-shadow: 0 2em 1em -1em #191919;
     }
 
     section.ofthedarkrealms figcaption p {
-        font-size: .8rem;
+        font-size: .9rem;
         text-align: center;
     }
 
