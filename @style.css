@@ -197,13 +197,14 @@ website:    http://magic.singles
 
     .traversetheoutlands {
         display: grid;
-        grid-template-columns: 45% 50%;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 10%;
         margin: 0 auto;
     }
 
     .traversetheoutlands button {
         border: 2px solid #393939;
-        border-radius: 50%;
+        border-radius: 100%;
         font: 700 .7rem/.7rem "covik-sans", sans-serif;
         padding: 1em;
         width: 100%;
