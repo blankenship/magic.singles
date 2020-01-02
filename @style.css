@@ -237,6 +237,10 @@ website:    http://magic.singles
         text-transform: uppercase;
     }
 
+    main {
+        margin-top: 2em;
+    }
+    
     aside {
         background: #393939;
         border-radius: .7em;
