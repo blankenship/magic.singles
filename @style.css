@@ -75,7 +75,6 @@ website:    http://magic.singles
     }
 
     .italic { font: 400 italic 3vw/3vw "fakir-new", serif; }
-    .smol { font: 400 3vw/3vw "fakir-small-caps-new", serif; }
 
     h3 {
         color: #393939;
@@ -218,16 +217,15 @@ website:    http://magic.singles
 
     aside {
         background: #393939;
-        border-radius: 2em;
+        border-radius: .7em;
         color: #d6d7cf;
         margin-top: 2em;
         padding: 2em 2em 3rem;        
     }
 
     aside h4 {
-        font: 700 .7rem/.7rem "covik-sans", sans-serif;
+        font: 400 2rem/2rem "fakir-small-caps-new", serif; 
         margin-bottom: 2rem;
-        text-transform: uppercase;
     }
 
     aside p {
