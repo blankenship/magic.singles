@@ -146,7 +146,7 @@ website:    http://magic.singles
 /* SECTION -- DEM GRIDS */
 
     section {
-        margin: 10rem auto;
+        margin: 0 auto;
     }
 
     section ul li { display: inline; }
