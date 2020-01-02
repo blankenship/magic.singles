@@ -250,10 +250,20 @@ website:    http://magic.singles
 
     aside {
         background: #fff;
-        border-radius: .7em;
-        color: #393939;
-        margin: 4em 6em 6em;
+        color: #393939;    
         padding: 3em 4em 4rem;        
+    }
+
+    aside:nth-child(1) {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin: 4em 0 6em 6em;
+    }
+
+    aside:nth-child(3) {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin: 4em 6em 6em 0;
     }
 
     aside h4 {
