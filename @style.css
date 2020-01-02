@@ -190,8 +190,12 @@ website:    http://magic.singles
         min-width: 100vw;
     }
 
-    section.pro-con {}
-    
+    section.pro-con div {
+        border-top: 3px solid #393939;
+        margin-top: 2em;
+        padding: 2em 0;
+    }
+
     .traversetheoutlands {
         display: grid;
         grid-template-columns: 45% 45%;
