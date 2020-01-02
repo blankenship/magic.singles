@@ -104,11 +104,8 @@ website:    http://magic.singles
     }
 
     main p:first-of-type {
-        text-indent: 0;
-    }
-
-    main p strong {
         font: 700 1.2rem/1.7rem "covik-sans", sans-serif;
+        text-indent: 0;
     }
 
     a { 
