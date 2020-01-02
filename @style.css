@@ -107,6 +107,12 @@ website:    http://magic.singles
         text-align: left;
     }
 
+    h3 span {
+        display: block;
+        font: 700 1rem/1rem "covik-sans", sans-serif;
+        text-transform: uppercase;
+    }
+
     h4 {
         font: 700 1rem/1rem "covik-sans", sans-serif;
         margin-bottom: 2rem;
