@@ -39,7 +39,7 @@ website:    http://magic.singles
     hr { display: none; }
 
     html {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     @media(min-width:700px) {
@@ -73,12 +73,12 @@ website:    http://magic.singles
         display: grid;
         grid-template-columns: 45% 45%;
         grid-gap: 10%;
-        margin: 0 auto 5vw;
+        margin: 4em auto;
         padding: 0;
     }
 
     .inset {
-        padding: 0 5vw;
+        padding: 0 4em;
     }
 
 /* TYPOGRAPHY */
