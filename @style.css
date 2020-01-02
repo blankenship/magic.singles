@@ -52,6 +52,7 @@ website:    http://magic.singles
     }
 
     header {
+        background-color: #fff;
         margin: 4em auto;
         padding: 0;
     }
