@@ -114,12 +114,12 @@ website:    http://magic.singles
     h5 { font: 400 italic 3rem/3rem "fakir-new", serif; }
 
     p {
-        font: 400 1.2rem/1.7rem "covik-sans", sans-serif;
+        font: 400 1.3rem/1.8rem "covik-sans", sans-serif;
         text-indent: 2em;
     }
 
     main p:first-of-type {
-        font: 700 1.2rem/1.7rem "covik-sans", sans-serif;
+        font: 700 1.3rem/1.8rem "covik-sans", sans-serif;
         text-indent: 0;
     }
 
