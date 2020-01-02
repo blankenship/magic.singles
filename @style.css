@@ -153,6 +153,11 @@ website:    http://magic.singles
 
     .dos {
         display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .dosmas {
+        display: grid;
         grid-template-columns: 40% 50%;
         grid-gap: 10%;
     }
