@@ -155,21 +155,18 @@ website:    http://magic.singles
         display: grid;
         grid-template-columns: 40% 50%;
         grid-gap: 10%;
-        margin: 0 auto;
     }
 
     .tres {
         display: grid;
         grid-template-columns: 30% 30% 30%;
         grid-gap: 5%;
-        margin: 0 auto;
     }
 
     .quatro {
         display: grid;
         grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
         grid-gap: 5%;
-        margin: 0 auto;
     }
 
     section figure img { 
