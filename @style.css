@@ -86,15 +86,15 @@ website:    http://magic.singles
     h1 {
         color: #393939;
         display: block;
-        font: 400 5vw/5vw "fakir-display-condensed-new", sans-serif;
+        font: 400 5rem/5rem "fakir-display-condensed-new", sans-serif;
         text-align: left;
         padding: 0;
     }
 
     h2 {
         color: #393939;
-        font: 400 3vw/3vw "fakir-display-condensed-new", serif;
-        margin-bottom: 3vw;
+        font: 400 3rem/3rem "fakir-display-condensed-new", serif;
+        margin-bottom: 3rem;
         text-align: left;
     }
 
