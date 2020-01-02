@@ -199,26 +199,14 @@ website:    http://magic.singles
         width: 100%;
      }
 
-    section figure img.logo { 
-        display: block;
-        margin: 2rem auto 3rem;
-        width: 50%;
-     }
-
-    section figure img.inset {
-        background-color: #393939;
-        border-radius: 1px;
-        padding: 10% 10% 16.5% 10%;
-    } 
-
-    section figure img.tombstone {
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-    } 
-
     section figcaption { 
         color: #393939;
         margin: 0 auto; 
+    }
+
+    main figure img {
+        border-radius: 6%;
+        box-shadow: 0 2em 1em -1em #F9F9F9;
     }
 
 /* SECTION -- OF THE DARK REALMS */
