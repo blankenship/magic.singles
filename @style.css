@@ -248,12 +248,15 @@ website:    http://magic.singles
         margin-top: 1.5em;
     }
 
+    /* STORYBOOK */
+
     aside {
         background: #fff;
+        box-shadow: 0 4em 2em -2em #a9aaa6;
         color: #393939;    
         padding: 3em 4em 4rem;        
     }
-
+    
     aside:nth-child(1) {
         border-top-right-radius: 4em;
         border-bottom-right-radius: 4em;
