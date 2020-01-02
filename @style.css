@@ -131,9 +131,8 @@ website:    http://magic.singles
         text-indent: 0;
     }
 
-    main p:first-of-type:first-line {
+    main p strong {
         font: 700 1.2rem/1.7rem "covik-sans", sans-serif;
-        text-indent: 0;
     }
 
     a { 
