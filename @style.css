@@ -250,6 +250,8 @@ website:    http://magic.singles
 
     /* STORYBOOK */
 
+    #storybook { border-top: 2px solid #fff; }
+    
     aside {
         background: #fff;
         box-shadow: 0 4em 2em -2em #a9aaa6;
