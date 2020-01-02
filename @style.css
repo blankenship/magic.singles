@@ -75,8 +75,6 @@ website:    http://magic.singles
         margin-bottom: 1.5rem;
     }
 
-    .italic { font: 400 italic 3vw/3vw "fakir-new", serif; }
-
     h3 {
         color: #393939;
         font: 400 2rem/2rem "fakir-display-new", serif;
@@ -97,6 +95,8 @@ website:    http://magic.singles
         margin-bottom: 2rem;
         text-transform: uppercase;
     }
+
+    h5 { font: 400 italic 3rem/3rem "fakir-new", serif; }
 
     p {
         font: 400 1.2rem/1.7rem "covik-sans", sans-serif;
@@ -190,6 +190,8 @@ website:    http://magic.singles
         min-width: 100vw;
     }
 
+    section.pro-con {}
+    
     .traversetheoutlands {
         display: grid;
         grid-template-columns: 45% 45%;
