@@ -191,8 +191,22 @@ website:    http://magic.singles
 
     figure img {
         border: 2px solid #191919;
-        border-radius: 4%;
+        border-radius: 5%;
         box-shadow: 0 4em 2em -2em #a9aaa6;
+    }
+
+    .traversetheoutlands {
+        display: grid;
+        grid-template-columns: 45% 50%;
+        margin: 0 auto;
+    }
+
+    .traversetheoutlands button {
+        border: 2px solid #393939;
+        border-radius: 50%;
+        font: 700 .7rem/.7rem "covik-sans", sans-serif;
+        padding: 1em;
+        width: 100%;
     }
 
     aside {
