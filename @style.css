@@ -109,9 +109,9 @@ website:    http://magic.singles
 
     h3 span {
         display: block;
-        font: 400 1rem/1rem "covik-sans", sans-serif;
-        margin-top: 2rem;
-        letter-spacing: .5em;
+        font: 700 1rem/1rem "covik-sans", sans-serif;
+        margin-top: 1rem;
+        letter-spacing: .2em;
         text-transform: uppercase;
     }
 
