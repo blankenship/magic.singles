@@ -210,14 +210,6 @@ website:    http://magic.singles
         margin: 0 auto; 
     }
 
-    section figcaption p {
-        font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
-    }
-
-    section figcaption p a {
-        font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
-    }
-
 /* SECTION -- OF THE DARK REALMS */
 
     section.ofthedarkrealms {
@@ -228,7 +220,11 @@ website:    http://magic.singles
 
     section.ofthedarkrealms figure img {
         border-radius: 5%;
-        box-shadow: 0 20px 10px -10px #111111;
+        box-shadow: 0 20px 10px -10px #393939;
+    }
+
+    section.ofthedarkrealms figcaption {
+        text-align: center;
     }
 
 /* SECTION -- FOOTER */
@@ -295,14 +291,6 @@ website:    http://magic.singles
             font: 700 .9rem/1.75rem "futura-pt-bold", sans-serif;
         }
 
-        section figcaption p {
-            font: 400 1.25rem/1.75rem "futura-pt", sans-serif;
-            margin-bottom: 3.5rem;
-        }
-
-        section figcaption p a {
-            font: 1.25rem/1.75rem "futura-pt-bold", sans-serif;
-        }
 
         footer .social a {
             font-size: 300%;
