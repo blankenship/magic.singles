@@ -277,6 +277,7 @@ website:    http://magic.singles
 
     aside p {
         font: 400 1rem/1.4rem "covik-sans", sans-serif;
+        margin-bottom: 1.4em;
         text-indent: 0;
     }
 
