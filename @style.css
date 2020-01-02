@@ -261,8 +261,15 @@ website:    http://magic.singles
     }
 
     aside p {
-        font: 400 .8rem/1.4rem "covik-sans", sans-serif;
+        font: 400 1.3rem/1.8rem "covik-sans", sans-serif;
         text-indent: 0;
+    }
+
+    aside p a {
+        border-bottom: 1px solid #393939;
+        color: #393939;
+        padding-bottom: .1em;
+        text-decoration: none;
     }
 
 /* SECTION -- OF THE DARK REALMS */
