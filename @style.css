@@ -251,7 +251,7 @@ website:    http://magic.singles
     /* STORYBOOK */
 
     #storybook { border-top: 2px solid #fff; }
-    
+
     aside {
         background: #fff;
         box-shadow: 0 4em 2em -2em #a9aaa6;
@@ -263,14 +263,14 @@ website:    http://magic.singles
         border-top-right-radius: 4em;
         border-right: 1px solid #d6d7cf;
         border-bottom: 5px outset #d6d7cf;
-        margin: 4em 0 6em 6em;
+        margin: 6em 0 6em 6em;
     }
 
     aside:nth-child(2) {
         border-top-left-radius: 4em;
         border-left: 1px solid #d6d7cf;
         border-bottom: 5px outset #d6d7cf;
-        margin: 4em 6em 6em 0;
+        margin: 6em 6em 6em 0;
     }
 
     aside h4 {
