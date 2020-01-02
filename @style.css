@@ -89,11 +89,10 @@ website:    http://magic.singles
         letter-spacing: .2em;
         text-transform: uppercase;
     }
-
+    
     h4 {
-        font: 700 1rem/1rem "covik-sans", sans-serif;
-        margin-bottom: 2rem;
-        text-transform: uppercase;
+        font: 400 2.5rem/2.5rem "fakir-small-caps-new", serif; 
+        margin-bottom: 1rem;
     }
 
     h5 { font: 400 italic 3rem/3rem "fakir-new", serif; }
@@ -228,11 +227,6 @@ website:    http://magic.singles
         color: #d6d7cf;
         margin-top: 2em;
         padding: 2em 2em 3rem;        
-    }
-
-    aside h4 {
-        font: 400 2.5rem/2.5rem "fakir-small-caps-new", serif; 
-        margin-bottom: 1rem;
     }
 
     aside p {
