@@ -205,14 +205,14 @@ website:    http://magic.singles
     .traversetheoutlands button {
         background: transparent;
         border: 3px solid #393939;
-        border-radius: .75em;
+        border-radius: .7em;
         padding: 2em;
         width: 100%;
     }
 
     .traversetheoutlands button a {
         color: #393939;
-        font: 700 .75rem/.75rem "covik-sans", sans-serif;
+        font: 700 .7rem/.7rem "covik-sans", sans-serif;
         letter-spacing: .1rem;
         text-transform: uppercase;
     }
