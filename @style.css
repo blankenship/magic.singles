@@ -124,7 +124,7 @@ website:    http://magic.singles
 
     p {
         font: 400 1.2rem/1.7rem "covik-sans", sans-serif;
-        text-indent: 10em;
+        text-indent: 4em;
     }
 
     main p:first-of-type {
