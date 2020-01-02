@@ -169,7 +169,7 @@ website:    http://magic.singles
         grid-gap: 5%;
     }
 
-    section figure img { 
+    figure img { 
         display: block;
         margin: 0 auto 1rem;
         min-width: 100%;
