@@ -199,17 +199,21 @@ website:    http://magic.singles
         display: grid;
         grid-template-columns: 45% 45%;
         grid-column-gap: 10%;
-        margin: 0 auto;
+        margin: 2em auto 0;
     }
 
     .traversetheoutlands button {
         background: transparent;
         border: 3px solid #393939;
         border-radius: .7em;
+        padding: 2em;
+        width: 100%;
+    }
+
+    .traversetheoutlands button a {
         color: #393939;
         font: 700 .7rem/.7rem "covik-sans", sans-serif;
-        padding: 1em;
-        width: 100%;
+        text-transform: uppercase;
     }
 
     aside {
