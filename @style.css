@@ -259,7 +259,7 @@ website:    http://magic.singles
 
     aside:nth-child(1) {
         border-top-right-radius: 4em;
-        border-top-left-radius: 75%;
+        border-top-left-radius: 15%;
         border-right: 1px solid #d6d7cf;
         border-bottom: 5px outset #d6d7cf;
         margin: 4em 0 6em 6em;
@@ -267,7 +267,7 @@ website:    http://magic.singles
 
     aside:nth-child(2) {
         border-top-left-radius: 4em;
-        border-top-right-radius: 75%;
+        border-top-right-radius: 15%;
         border-left: 1px solid #d6d7cf;
         border-bottom: 5px outset #d6d7cf;
         margin: 4em 6em 6em 0;
