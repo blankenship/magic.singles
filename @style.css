@@ -195,6 +195,14 @@ website:    http://magic.singles
         box-shadow: 0 4em 2em -2em #a9aaa6;
     }
 
+    aside {
+        background: #393939;
+        border-radius: 2em;
+        color: #d6d7cf;
+        font-size: 75%;
+        padding: 4em 4em;        
+    }
+
 /* SECTION -- OF THE DARK REALMS */
 
     section.ofthedarkrealms {
