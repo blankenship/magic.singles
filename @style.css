@@ -45,7 +45,7 @@ website:    http://magic.singles
     body {
         background-color: #d6d7cf;
         color: #393939;
-        line-height: 1.4;
+        line-height: 1.5;
         overflow-x: hidden;
         max-width: 1200px;
         margin: 0 auto;
@@ -189,9 +189,9 @@ website:    http://magic.singles
         margin: 0 auto; 
     }
 
-    main figure img {
+    figure img {
         border-radius: 6%;
-        box-shadow: 0 2em 1em -1em #F9F9F9;
+        box-shadow: 0 2em 1em -1em #a9aaa6;
     }
 
 /* SECTION -- OF THE DARK REALMS */
