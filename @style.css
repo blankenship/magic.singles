@@ -252,8 +252,8 @@ website:    http://magic.singles
         background: #fff;
         border-radius: .7em;
         color: #393939;
-        margin: 2em;
-        padding: 2em 2em 3rem;        
+        margin: 4em 6em 6em;
+        padding: 3em 4em 4rem;        
     }
 
     aside h4 {
@@ -261,14 +261,14 @@ website:    http://magic.singles
     }
 
     aside p {
-        font: 400 1.3rem/1.8rem "covik-sans", sans-serif;
+        font: 400 1rem/1.4rem "covik-sans", sans-serif;
         text-indent: 0;
     }
 
     aside p a {
-        border-bottom: 1px solid #393939;
+        border-bottom: 2px solid #d6d7cf;
         color: #393939;
-        padding-bottom: .1em;
+        padding-bottom: .05em;
         text-decoration: none;
     }
 
