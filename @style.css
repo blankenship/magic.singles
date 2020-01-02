@@ -108,6 +108,7 @@ website:    http://magic.singles
     }
 
     h3 span {
+        color: #999;
         display: block;
         font: 700 1rem/1rem "covik-sans", sans-serif;
         margin-top: 1rem;
