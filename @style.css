@@ -199,7 +199,6 @@ website:    http://magic.singles
         background: #393939;
         border-radius: 2em;
         color: #d6d7cf;
-        font-size: 75%;
         margin-top: 2em;
         padding: 2em 2em 3rem;        
     }
@@ -268,9 +267,7 @@ website:    http://magic.singles
 
         @media (min-width: 100px) and (max-width: 800px) {
 
-        body {
-            padding: 5vw;
-        }
+       
 
         .tres,
         .quatro {
@@ -278,30 +275,6 @@ website:    http://magic.singles
                 margin: 0 auto;
                 padding: 0;
             }
-
-        h3 {
-            font: 700 .7rem/.7rem "futura-pt-bold", sans-serif;
-            margin-bottom: 10vw;
-            padding: 1rem;
-        }
-
-        h1 {
-            font: 900 18vw/13.4vw "dharma-gothic-c", sans-serif;
-        }
-
-        h2 {
-            font: 400 italic 1.25rem/1.75rem freight-text-pro, serif;
-            margin-bottom: 2rem;
-        }
-
-        h2 strong {
-            font: 700 .9rem/1.75rem "futura-pt-bold", sans-serif;
-        }
-
-
-        footer .social a {
-            font-size: 300%;
-        }
 
         }
 
