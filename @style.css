@@ -200,7 +200,19 @@ website:    http://magic.singles
         border-radius: 2em;
         color: #d6d7cf;
         font-size: 75%;
-        padding: 4em 4em;        
+        margin-top: 2em;
+        padding: 2em 2em 3rem;        
+    }
+
+    aside h4 {
+        font: 700 .7rem/.7rem "covik-sans", sans-serif;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+
+    aside p {
+        font: 400 .8rem/1.4rem "covik-sans", sans-serif;
+        text-indent: 0;
     }
 
 /* SECTION -- OF THE DARK REALMS */
