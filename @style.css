@@ -84,14 +84,12 @@ website:    http://magic.singles
     header em {
         display: block;
         font-style: italic;
-        text-align: right;
     }
 
     h1 {
         color: #393939;
         display: block;
         font: 400 6rem/6rem "fakir-display-condensed-new", sans-serif;
-        text-align: center;
     }
 
     header a {
