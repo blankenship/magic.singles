@@ -171,7 +171,7 @@ website:    http://magic.singles
 
     .dosmas {
         display: grid;
-        grid-template-columns: 40% 50%;
+        grid-template-columns: 45% 45%;
         grid-gap: 10%;
         padding-top: 2em;
     }
