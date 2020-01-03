@@ -71,20 +71,23 @@ website:    http://magic.singles
         background-color: #eee;
         margin: 0 auto 4em;
         padding: 4em 0;
-        text-align: center;
     }
 
-    header span {
+    header em,
+    header nav {
         color: #393939;
         font: 700 1.2rem/1.2rem "covik-sans", sans-serif;
         margin: 2.2em auto;
     }
 
+    header em   { text-align: right; }
+    header nav  { text-align: left; }
+
     h1 {
         color: #393939;
         display: block;
         font: 400 6rem/6rem "fakir-display-condensed-new", sans-serif;
-        margin-left: 0;
+        text-align: center;
     }
 
     header a {
