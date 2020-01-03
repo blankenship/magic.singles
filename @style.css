@@ -61,6 +61,7 @@ website:    http://magic.singles
         background-color: #fff;
         margin: 0 auto 4em;
         padding: 4em 0;
+        text-align: center;
     }
 
     header span {
@@ -74,21 +75,6 @@ website:    http://magic.singles
         display: block;
         font: 400 5rem/5rem "fakir-display-condensed-new", sans-serif;
         margin-left: 0;
-    }
-
-    nav {
-        margin-right: 0;
-    }
-
-    nav ul { list-style-type: none; }
-
-    nav ul li { 
-        display: inline; 
-        color: #393939;
-        font: 700 1rem/1rem "covik-sans", sans-serif;
-        letter-spacing: .2em;
-        margin: 2em 1em;
-        text-transform: uppercase;
     }
 
 /* TYPOGRAPHY */
