@@ -50,6 +50,16 @@ website:    http://magic.singles
         margin: 0 auto;
     }
 
+    a { 
+        color: #393939;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    a:hover { 
+        color: silver;  
+    }
+
  .inset {
         padding-right: 4em;
         padding-left: 4em;
@@ -58,7 +68,7 @@ website:    http://magic.singles
 /* HEADER */
 
     header {
-        background-color: #fff;
+        background-color: #eee;
         margin: 0 auto 4em;
         padding: 4em 0;
         text-align: center;
@@ -66,15 +76,19 @@ website:    http://magic.singles
 
     header span {
         color: #393939;
-        font: 700 1rem/1rem "covik-sans", sans-serif;
-        margin: 2em 1em;
+        font: 700 1.2rem/1.2rem "covik-sans", sans-serif;
+        margin: 2.2em auto;
     }
 
     h1 {
         color: #393939;
         display: block;
-        font: 400 5rem/5rem "fakir-display-condensed-new", sans-serif;
+        font: 400 6rem/6rem "fakir-display-condensed-new", sans-serif;
         margin-left: 0;
+    }
+
+    header a {
+        color: #393939;
     }
 
 /* TYPOGRAPHY */
@@ -115,16 +129,6 @@ website:    http://magic.singles
     main p:first-of-type {
         font: 700 1.3rem/1.8rem "covik-sans", sans-serif;
         text-indent: 0;
-    }
-
-    a { 
-        color: #393939;
-        display: inline-block;
-        text-decoration: none;
-    }
-
-    a:hover { 
-        color: silver;  
     }
 
     mark {
