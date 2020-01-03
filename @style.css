@@ -172,7 +172,7 @@ website:    http://magic.singles
 
     .tres {
         display: grid;
-        grid-template-columns: 30% 35% 30%;
+        grid-template-columns: 30% 30% 30%;
         grid-gap: 5%;
     }
 
