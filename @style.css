@@ -70,7 +70,7 @@ website:    http://magic.singles
     header {
         background-color: #eee;
         margin: 0 auto;
-        padding: 4em 0;
+        padding: 4em 0 5em;
         text-align: center;
    }
 
@@ -79,6 +79,11 @@ website:    http://magic.singles
         color: #393939;
         font: 700 1.2rem/1.2rem "covik-sans", sans-serif;
         margin-top: 2.2em;
+    }
+
+    header em {
+        font-style: italic;
+        text-align: right;
     }
 
     h1 {
