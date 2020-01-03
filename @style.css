@@ -82,6 +82,7 @@ website:    http://magic.singles
     }
 
     header em {
+        display: block;
         font-style: italic;
         text-align: right;
     }
