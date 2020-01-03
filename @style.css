@@ -50,18 +50,26 @@ website:    http://magic.singles
         margin: 0 auto;
     }
 
+ .inset {
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+
+/* HEADER */
+
     header {
         background-color: #fff;
         margin: 0 auto 4em;
         padding: 4em 0;
     }
 
-    .inset {
-        padding-right: 4em;
-        padding-left: 4em;
+    mark {
+        color: #393939;
+        font: 700 1rem/1rem "covik-sans", sans-serif;
+        letter-spacing: .2em;
+        margin: 2em 1em;
+        text-transform: uppercase;
     }
-
-/* TYPOGRAPHY */
 
     h1 {
         color: #393939;
@@ -84,6 +92,8 @@ website:    http://magic.singles
         margin: 2em 1em;
         text-transform: uppercase;
     }
+
+/* TYPOGRAPHY */
 
     h2 {
         color: #393939;
