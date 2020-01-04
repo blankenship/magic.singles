@@ -76,7 +76,7 @@ website:    http://magic.singles
     h1 {
         color: #393939;
         display: block;
-        font: 700 2rem/2rem "fakir-display-new", sans-serif;
+        font: 400 2.5rem/2.5rem "fakir-small-caps-new", serif; 
         padding-left: 1em;
     }
 
