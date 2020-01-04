@@ -76,7 +76,7 @@ website:    http://magic.singles
     h1 {
         color: #393939;
         display: block;
-        font: 400 3rem/3rem "fakir-new", sans-serif;
+        font: 700 2rem/2rem "fakir-display-new", sans-serif;
         padding-left: 1em;
     }
 
@@ -97,8 +97,7 @@ website:    http://magic.singles
     }
 
     header nav ul li:before {
-        content: 'U-02015';
-        margin-right: 1em;
+        content: '';
     }
 
 /* TYPOGRAPHY */
@@ -128,8 +127,6 @@ website:    http://magic.singles
         font: 400 2.5rem/2.5rem "fakir-small-caps-new", serif; 
         margin-bottom: 1rem;
     }
-
-    h5 { font: 400 italic 3rem/3rem "fakir-new", serif; }
 
     p {
         font: 400 1.3rem/1.8rem "covik-sans", sans-serif;
