@@ -215,10 +215,11 @@ website:    http://magic.singles
         padding: 1em;
     }
 
-        section.pro-con div {
-        border-top: 3px solid #393939;
+    section.pro-con div {
+        background-color: #fff;
+        box-shadow: 0 10px 20px rgba(0,0,0,.35);
         margin-top: 2em;
-        padding: 2em 0;
+        padding: 2em;
     }
 
     .traversetheoutlands {
