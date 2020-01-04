@@ -108,6 +108,10 @@ website:    http://magic.singles
         margin-bottom: 1.5rem;
     }
 
+    nav h2 {
+        font: 700 2rem/2rem "fakir-display-new", sans-serif;
+    }
+
     h3 {
         color: #393939;
         font: 400 2rem/2rem "fakir-display-new", serif;
@@ -305,24 +309,7 @@ website:    http://magic.singles
 
 /* SECTION -- FOOTER */
 
-    footer {
-        border-top: 2px solid #393939; 
-        margin-bottom: 10vw;
-    }
-
-    footer span { 
-        display: inline-block;
-        font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
-    }
-
-    footer .social a {
-        color: #393939;
-        font-size: 200%;
-        margin: 0 5px 20px;
-    }
-
-    footer .social a:hover { color: rgba(255, 224, 0, 0.7); }
-
+    
 /* WEE SCREENS */
 
         @media (min-width: 801px) and (max-width: 1000px) {
