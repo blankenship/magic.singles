@@ -76,8 +76,8 @@ website:    http://magic.singles
     h1 {
         color: #393939;
         display: block;
-        font: 400 6rem/6rem "fakir-display-condensed-new", sans-serif;
-        margin-left: 1em;
+        font: 400 3rem/3rem "fakir-display-condensed-new", sans-serif;
+        margin-left: 0;
     }
 
     header a {
@@ -86,16 +86,19 @@ website:    http://magic.singles
 
     header nav ul {
         color: #393939;
-        font: 700 2rem/2rem "covik-sans", sans-serif;
+        font: 700 1.5rem/1.5rem "covik-sans", sans-serif;
         list-style-type: none;
         text-align: left;
     }
 
     header nav ul li {
-        border-bottom: 2px solid #393939;
         display: block;
         margin-bottom: 1em;
-        padding-bottom: 1em;
+    }
+
+    header nav ul li:before {
+        content: 'U-02015';
+        margin-right: 1em;
     }
 
 /* TYPOGRAPHY */
