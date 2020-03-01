@@ -162,7 +162,7 @@ website:    http://magic.singles
 /* SECTION -- DEM GRIDS */
 
     section {
-        margin: 0 auto;
+        margin: 0 auto 2em;
     }
 
     section ul li { display: inline; }
