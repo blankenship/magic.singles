@@ -302,12 +302,12 @@ website:    http://magic.singles
     section.ofthedarkrealms figure img {
         border: 1px solid #191919;
         border-radius: 6%;
-        box-shadow: 0 2em 1em -1em #191919;
+        box-shadow: 0 1em .5em -.5em #191919;
     }
 
     section.ofthedarkrealms figcaption p {
         font-size: .9rem;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
         text-align: center;
         text-indent: 0;
     }
