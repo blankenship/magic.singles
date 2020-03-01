@@ -308,6 +308,7 @@ website:    http://magic.singles
     section.ofthedarkrealms figcaption p {
         font-size: .9rem;
         text-align: center;
+        text-indent: 0;
     }
 
 /* SECTION -- FOOTER */
