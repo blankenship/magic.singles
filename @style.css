@@ -203,27 +203,6 @@ website:    http://magic.singles
         margin-top: -5em;
     }
 
-    figure.artwork img {
-        min-width: 100vw;
-    }
-
-    figure.artwork figcaption {
-        background: #393939;
-        color: #fff;
-        font: 700 1.3rem/3.8rem "covik-sans", sans-serif;
-        padding: 1em;
-    }
-
-    section.pro-con {
-        background-color: #fff;
-        box-shadow: 0 10px 20px rgba(0,0,0,.35);
-        margin-top: 2em;
-        padding: 2em;
-    }
-
-    section.pro-con p {
-
-    }
     .traversetheoutlands {
         display: grid;
         grid-template-columns: 45% 45%;
@@ -306,6 +285,28 @@ website:    http://magic.singles
     }
 
     section.ofthedarkrealms figcaption p {
+        font-size: .9rem;
+        margin-bottom: 2em;
+        text-align: center;
+        text-indent: 0;
+    }
+
+/* SECTION -- HOME */
+
+    section.home {
+        background: #393939;
+        color: #d6d7cf;
+        padding: 4em 4em;
+    }
+
+    section.home figure img {
+        border: 1px solid #191919;
+        border-radius: 6%;
+        margin-top: -5em;
+    }
+
+    section.home figcaption p {
+        color: #111;
         font-size: .9rem;
         margin-bottom: 2em;
         text-align: center;
