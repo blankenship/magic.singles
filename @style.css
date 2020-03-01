@@ -78,7 +78,6 @@ website:    http://magic.singles
         display: block;
         font: 400 2.5rem/2.5rem "fakir-small-caps-new", serif; 
         text-shadow: 1px 1px #fff;
-        padding-left: 1em;
     }
 
     header a {
@@ -89,13 +88,10 @@ website:    http://magic.singles
         color: #393939;
         font: 400 1.5rem/1.5rem "covik-sans", sans-serif;
         list-style-type: none;
-        text-align: left;
-        padding-left: 4em;
+        text-align: center;
    }
 
     header nav ul li {
-        display: block;
-        margin-bottom: .5em;
     }
 
     header nav ul li:before {
