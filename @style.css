@@ -98,6 +98,10 @@ website:    http://magic.singles
         padding: 0 1em;
     }
 
+    #logo {
+        width: 20vw;
+    }
+
 /* TYPOGRAPHY */
 
     h2 {
