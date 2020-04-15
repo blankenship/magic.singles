@@ -101,6 +101,13 @@ website:    http://magic.singles
         width: 10vw;
     }
 
+    .masthead {
+        display: grid;
+        grid-template-columns: 20% 30% 20%;
+        grid-gap: 5%;
+        margin: 0 10%;
+    }
+
 /* TYPOGRAPHY */
 
     h2 {
