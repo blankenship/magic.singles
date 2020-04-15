@@ -75,25 +75,25 @@ website:    http://magic.singles
    }
 
     h1 {
-        color: #393939;
+        color: #222;
         display: block;
         font: 400 2rem/2rem "fakir-small-caps-new", serif; 
         text-align: center;
     }
 
     header a {
-        color: #393939;
+        color: #222;
     }
 
     header nav ul {
-        color: #393939;
+        color: #222;
         font: 400 2rem/2rem "fakir-small-caps-new", serif; 
         list-style-type: none;
    }
 
     header nav ul li {
         display: inline;
-        margin: 0 auto;
+        margin: 0 5px;
     }
 
     #dragon {
@@ -104,9 +104,8 @@ website:    http://magic.singles
     .masthead {
         display: grid;
         grid-template-columns: 20% 10% 20%;
-        grid-gap: 2%;
-        min-height: 4rem;
-        padding: 0 23%;
+        grid-gap: 0%;
+        padding: 0 25%;
     }
 
 /* TYPOGRAPHY */
