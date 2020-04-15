@@ -87,9 +87,9 @@ website:    http://magic.singles
 
     header nav ul {
         color: #393939;
-        font: 400 1.25rem/1.25rem "covik-sans", sans-serif;
+        font: 400 3rem/3rem "fakir-small-caps-new", serif; 
         list-style-type: none;
-        margin-bottom: 2em;
+        margin-bottom: .5em;
    }
 
     header nav ul li {
