@@ -92,7 +92,7 @@ website:    http://magic.singles
 
     header nav ul li {
         display: inline;
-        margin-right: 10px;
+        margin-right: 20px;
         text-align: left;
     }
 
@@ -103,7 +103,8 @@ website:    http://magic.singles
 
     .masthead {
         display: grid;
-        grid-template-columns: 45% 10% 45%;
+        grid-template-columns: 40% 10% 40%;
+        grid-gap: 5%;
     }
 
 /* TYPOGRAPHY */
