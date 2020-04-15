@@ -99,6 +99,7 @@ website:    http://magic.singles
     }
 
     #logo {
+        margin: .5em auto;
         width: 20vw;
     }
 
