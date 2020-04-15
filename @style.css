@@ -362,10 +362,8 @@ website:    http://magic.singles
     width: 30vw; 
 }
 
-#splash a { color: #d6d7cf; }
-
-#splash h3 {
-    color: #d6d7cf;
-    margin-top: 4em;
+#splash h3 a { 
+    color: #eee;
+    margin-top: 2em;
     text-align: center;
     }
