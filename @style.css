@@ -98,14 +98,14 @@ website:    http://magic.singles
 
     #dragon {
         margin: 0 auto;
-        width: 10vw;
+        width: 100%;
     }
 
     .masthead {
         display: grid;
         grid-template-columns: 20% 30% 20%;
         grid-gap: 5%;
-        margin: 0 10%;
+        padding: 0 10%;
     }
 
 /* TYPOGRAPHY */
