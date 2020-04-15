@@ -105,6 +105,7 @@ website:    http://magic.singles
         display: grid;
         grid-template-columns: 20% 10% 20%;
         grid-gap: 2%;
+        min-height: 4rem;
         padding: 0 23%;
     }
 
