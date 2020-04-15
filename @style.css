@@ -356,7 +356,7 @@ website:    http://magic.singles
     padding-top: calc(50vh - 5rem);
     }
 
-#splash #dragon { width: 30vw; }
+#splash div { width: 30vw; }
 
 #splash h1, h3, a {
     color: #d6d7cf;
