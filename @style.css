@@ -354,7 +354,7 @@ website:    http://magic.singles
 #splash {
     background: #393939;
     margin: 0 auto;
-    padding-top: calc(50vh - 5rem);
+    padding-top: calc(50vh - 8rem);
     }
 
 #splash div { 
