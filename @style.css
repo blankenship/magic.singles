@@ -353,6 +353,7 @@ website:    http://magic.singles
 
 #splash {
     background: #393939;
+    margin: 0 auto;
     padding-top: calc(50vh - 5rem);
     }
 
@@ -363,6 +364,6 @@ website:    http://magic.singles
 
 #splash h3 {
     color: #d6d7cf;
-    margin-top: 2em;
+    margin-top: 4em;
     text-align: center;
     }
