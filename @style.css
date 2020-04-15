@@ -78,7 +78,6 @@ website:    http://magic.singles
         color: #222;
         display: block;
         font: 400 2rem/2rem "fakir-small-caps-new", serif; 
-        text-align: center;
     }
 
     header a {
@@ -93,19 +92,19 @@ website:    http://magic.singles
 
     header nav ul li {
         display: inline;
-        margin: 0 5px;
+        margin: 0 10px;
     }
 
     #dragon {
-        margin: -3em auto 0;
+        margin: -4em auto 0;
         width: 100%;
     }
 
     .masthead {
         display: grid;
         grid-template-columns: 20% 10% 20%;
-        grid-gap: 0%;
         margin: 0 auto;
+        padding: 0 25%;
     }
 
 /* TYPOGRAPHY */
