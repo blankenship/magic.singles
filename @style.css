@@ -97,7 +97,7 @@ website:    http://magic.singles
     }
 
     #dragon {
-        margin: 0 auto;
+        margin: -3em auto 0;
         width: 100%;
     }
 
@@ -105,6 +105,7 @@ website:    http://magic.singles
         display: grid;
         grid-template-columns: 20% 10% 20%;
         grid-gap: 0%;
+        margin: 0 auto;
     }
 
 /* TYPOGRAPHY */
