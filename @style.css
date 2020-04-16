@@ -338,6 +338,11 @@ website:    http://magic.singles
 
 /* SECTION -- FOOTER */
 
+    footer {
+        font-size: .9rem;
+        padding: 4em 0;
+    }
+
     
 /* WEE SCREENS */
 
