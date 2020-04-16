@@ -303,6 +303,10 @@ website:    http://magic.singles
         text-indent: 0;
     }
 
+    section.ofthedarkrealms figcaption p a {
+        color: #eee;
+    }
+    
 /* SECTION -- HOME */
 
     section.home {
