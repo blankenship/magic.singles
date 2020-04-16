@@ -332,6 +332,10 @@ website:    http://magic.singles
         color: silver;
     }
 
+    section.home figcaption p a:hover {
+        color: #fb3600;
+    }
+
 /* SECTION -- FOOTER */
 
     
