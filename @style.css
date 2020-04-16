@@ -54,7 +54,6 @@ website:    http://magic.singles
     }
 
     a { 
-        color: #393939;
         display: inline-block;
         text-decoration: none;
     }
@@ -306,7 +305,7 @@ website:    http://magic.singles
     section.ofthedarkrealms figcaption p a {
         color: #eee;
     }
-    
+
 /* SECTION -- HOME */
 
     section.home {
