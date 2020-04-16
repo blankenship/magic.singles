@@ -314,7 +314,7 @@ website:    http://magic.singles
         padding: 4em 4em;
     }
 
-    section.home figure img {
+    section.home .quatro figure img {
         border: 1px solid #191919;
         border-radius: 6%;
         margin-top: -7em;
