@@ -328,6 +328,10 @@ website:    http://magic.singles
         text-indent: 0;
     }
 
+    section.home figcaption p a {
+        color: silver;
+    }
+
 /* SECTION -- FOOTER */
 
     
