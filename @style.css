@@ -63,8 +63,8 @@ website:    http://magic.singles
     }
 
  .inset {
-        padding-right: 4em;
-        padding-left: 4em;
+        padding-right: 5em;
+        padding-left: 5em;
     }
 
 /* HEADER */
@@ -181,7 +181,7 @@ website:    http://magic.singles
 
     .singlecombat {
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 35% 65%;
     }
 
     .dos {
