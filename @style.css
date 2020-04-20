@@ -181,7 +181,7 @@ website:    http://magic.singles
 
     .singlecombat {
         display: grid;
-        grid-template-columns: 35% 65%;
+        grid-template-columns: 40% 60%;
     }
 
     .dos {
@@ -214,7 +214,7 @@ website:    http://magic.singles
 
     figure.profile img {
         border: 1px solid #191919;
-        border-radius: 5%;
+        border-radius: 4%;
 /*        box-shadow: 0 4em 2em -2em #a9aaa6; */        
         margin-top: -3em;
     }
@@ -223,7 +223,7 @@ website:    http://magic.singles
         display: grid;
         grid-template-columns: 30% 30% 30%;
         grid-column-gap: 5%;
-        margin: 2em auto 0;
+        margin: 1em auto 0;
     }
 
     .traversetheoutlands button {
