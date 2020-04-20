@@ -179,9 +179,14 @@ website:    http://magic.singles
 
     section ul li { display: inline; }
 
+    .singlecombat {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
     .dos {
         display: grid;
-        grid-template-columns: 45% 55%;
+        grid-template-columns: 50% 50%;
     }
 
     .tres {
