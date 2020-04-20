@@ -182,6 +182,7 @@ website:    http://magic.singles
     .singlecombat {
         display: grid;
         grid-template-columns: 40% 60%;
+        padding-bottom: 4em.;
     }
 
     .dos {
@@ -203,7 +204,7 @@ website:    http://magic.singles
 
     section figure img { 
         display: block;
-        margin: 0 auto 1rem;
+        margin: 0 auto 1em;
         width: 100%;
      }
 
