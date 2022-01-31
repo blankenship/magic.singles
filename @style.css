@@ -202,6 +202,10 @@ website:    http://magic.singles
         grid-gap: 5%;
     }
 
+    section figure {
+        margin-bottom:  2rem;
+    }
+    
     section figure img { 
         display: block;
         margin: 0 auto 1em;
