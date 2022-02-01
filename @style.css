@@ -179,7 +179,7 @@ website:    http://magic.singles
 
     section ul li {
         display: inline; 
-        margin-bottom:  2rem;
+        margin-bottom:  3rem;
     }
 
     .singlecombat {
@@ -210,7 +210,7 @@ website:    http://magic.singles
 
     section figure img { 
         display: block;
-        margin: 0 auto 1em;
+        margin: 0 auto .5em;
         width: 100%;
      }
 
