@@ -177,7 +177,10 @@ website:    http://magic.singles
         padding-bottom: 2em;
     }
 
-    section ul li { display: inline; }
+    section ul li {
+        display: inline; 
+        margin-bottom:  2rem;
+    }
 
     .singlecombat {
         display: grid;
@@ -203,9 +206,8 @@ website:    http://magic.singles
     }
 
     section figure {
-        margin-bottom:  2rem;
     }
-    
+
     section figure img { 
         display: block;
         margin: 0 auto 1em;
