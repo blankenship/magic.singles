@@ -94,7 +94,7 @@ website:    http://magic.singles
 
     header nav ul {
         color: #222;
-        font: 700 2rem/2rem "neue-haas-grotesk-display", serif; 
+        font: 700 1.8rem/1.8rem "neue-haas-grotesk-display", serif; 
         list-style-type: none;
    }
 
@@ -104,13 +104,13 @@ website:    http://magic.singles
     }
 
     #dragon {
-        margin: -3em auto 0;
+        margin: 0 3rem 0 0;
         width: 100%;
     }
 
     .masthead {
         display: grid;
-        grid-template-columns: 25% 10% 25% 20% 20%;
+        grid-template-columns: 20% 15% 25% 20% 20%;
         grid-gap: 0;
     }
 
@@ -120,10 +120,6 @@ website:    http://magic.singles
         color: #393939;
         font: 400 3rem/3rem "fakir-display-condensed-new", serif;
         margin-bottom: 1.5rem;
-    }
-
-    nav h2 {
-        font: 700 2rem/2rem "fakir-display-new", sans-serif;
     }
 
     h3 {
