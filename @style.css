@@ -104,8 +104,8 @@ website:    http://magic.singles
 
     .masthead {
         display: grid;
-        grid-template-columns: 40% 10% 40%;
-        grid-gap: 5%;
+        grid-template-columns: 25% 10% 25% 20% 20%;
+        grid-gap: 0;
     }
 
 /* TYPOGRAPHY */
