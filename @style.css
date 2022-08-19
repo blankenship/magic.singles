@@ -78,7 +78,7 @@ website:    http://magic.singles
     h1 {
         color: #222;
         display: block;
-        font: 400 2rem/2rem "fakir-small-caps-new", serif; 
+        font: 700 2rem/2rem "swear display", serif; 
         text-align: left;
     }
 
@@ -129,7 +129,7 @@ website:    http://magic.singles
     h3 span {
         color: #696969;
         display: block;
-        font: 700 1rem/1rem "covik-sans", sans-serif;
+        font: 700 1rem/1rem "neue-haas-grotesk-display", sans-serif;
         margin-top: 1rem;
         letter-spacing: .2em;
         text-transform: uppercase;
@@ -141,12 +141,12 @@ website:    http://magic.singles
     }
 
     p {
-        font: 400 1.3rem/1.8rem "covik-sans", sans-serif;
+        font: 400 1.3rem/1.8rem "neue-haas-grotesk-display", sans-serif;
         text-indent: 2em;
     }
 
     main p:first-of-type {
-        font: 700 1.3rem/1.8rem "covik-sans", sans-serif;
+        font: 700 1.3rem/1.8rem "neue-haas-grotesk-display", sans-serif;
         text-indent: 0;
     }
 
