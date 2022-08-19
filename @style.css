@@ -78,8 +78,14 @@ website:    http://magic.singles
     h1 {
         color: #222;
         display: block;
-        font: 800 3rem/3rem "swear-display", serif; 
+        font: 800 4em/3rem "swear-display", serif; 
         text-align: left;
+    }
+
+    h1#tagline {
+        color: #393939;
+        font: 400 italic 2rem/2rem "swear-display", serif;
+        margin-bottom: 1.5rem;
     }
 
     header a {
@@ -88,7 +94,7 @@ website:    http://magic.singles
 
     header nav ul {
         color: #222;
-        font: 400 2rem/2rem "fakir-small-caps-new", serif; 
+        font: 700 2rem/2rem "neue-haas-grotesk-display", serif; 
         list-style-type: none;
    }
 
