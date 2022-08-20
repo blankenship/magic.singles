@@ -104,8 +104,9 @@ website:    http://magic.singles
     }
 
     #dragon {
-        margin: -2.5rem 0 0 25%;
-        width: 75%;
+        background:  tomato;
+        margin: -2.5rem 0 0 50%;
+        width: 50%;
     }
 
     .masthead {
