@@ -46,7 +46,7 @@ website:    http://magic.singles
     }
 
     body {
-        background-color: #d6d7cf;
+        background-color: #b4b4b4;
         color: #393939;
         line-height: 1.5;
         overflow-x: hidden;
@@ -76,7 +76,6 @@ website:    http://magic.singles
    }
 
     h1 {
-        background:  yellow;
         color: #222;
         display: block;
         font: 800 4em/3rem "swear-display", serif; 
@@ -90,11 +89,11 @@ website:    http://magic.singles
     }
 
     header a {
-        color: #222;
+        color: #2139ad;
     }
 
     header nav ul {
-        color: #222;
+        color: #2139ad;
         font: 700 1.8rem/1.8rem "neue-haas-grotesk-display", serif; 
         list-style-type: none;
    }
@@ -105,7 +104,6 @@ website:    http://magic.singles
     }
 
     #dragon {
-        background:  tomato;
         margin: -2.5rem 0 0 50%;
         width: 50%;
     }
@@ -119,7 +117,7 @@ website:    http://magic.singles
 /* TYPOGRAPHY */
 
     h2 {
-        color: #393939;
+        color: #2139ad;
         font: 400 3rem/3rem "fakir-display-condensed-new", serif;
         margin-bottom: 1.5rem;
     }
