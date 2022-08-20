@@ -76,6 +76,7 @@ website:    http://magic.singles
    }
 
     h1 {
+        background:  yellow;
         color: #222;
         display: block;
         font: 800 4em/3rem "swear-display", serif; 
@@ -111,7 +112,7 @@ website:    http://magic.singles
 
     .masthead {
         display: grid;
-        grid-template-columns: 15% 20% 25% 15% 15%;
+        grid-template-columns: 15% 22.5% 25% 15% 12.5%;
         grid-gap: 2.5%;
     }
 
