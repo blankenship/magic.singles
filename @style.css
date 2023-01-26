@@ -395,6 +395,6 @@ website:    http://magic.singles
 }
 
 #splash #dragon {
-        margin: 0;
+        margin: 0 0 25vh 0;
         width: 100%;
     }
