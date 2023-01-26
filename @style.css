@@ -393,3 +393,8 @@ website:    http://magic.singles
     padding-top: calc(50vh - 1rem);
     width: 50vmin; 
 }
+
+#splash #dragon {
+        margin: 0;
+        width: 100%;
+    }
