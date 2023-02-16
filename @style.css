@@ -419,7 +419,7 @@ website:    http://magic.singles
     transform: translate3d(0, 0, 0);
   }
   50% {
-    transform: translate3d(0, calc(-300vw + 1vh), 0);
+    transform: translate3d(0, 200vw, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);
