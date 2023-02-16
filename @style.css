@@ -408,7 +408,7 @@ website:    http://magic.singles
 .sliding-background {
   background: url("/@images/magic.singles.scroll.png") repeat-y;
   height: 5825px;
-  width: 2000px;
+  width: 100vw;
   animation: slide 60s linear infinite;
 }
 
