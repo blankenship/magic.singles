@@ -407,7 +407,7 @@ website:    http://magic.singles
 }
 
 .sliding-background {
-  background: url("/@images/magic.singles.scroll.png") repeat-y;
+  background: url("/@images/magic.singles.scroll.png") repeat-y 49% center fixed;
   background-size: cover;
   height: 300vw;
   max-width: 100vw;
