@@ -411,7 +411,7 @@ website:    http://magic.singles
   background-size: cover;
   height: 300vw;
   max-width: 100vw;
-  animation: slide 120s linear infinite;
+  animation: slide 80s linear infinite;
 }
 
 @keyframes slide{
@@ -419,7 +419,7 @@ website:    http://magic.singles
     transform: translate3d(0, 0, 0);
   }
   50% {
-    transform: translate3d(0, -300vw, 0);
+    transform: translate3d(0, -250vw, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);
