@@ -406,7 +406,7 @@ website:    http://magic.singles
 }
 
 .sliding-background {
-  background: url("/@images/magic.singles.logo.svg") repeat-y;
+  background: url("/@images/magic.singles.scroll.png") repeat-y;
   height: 5825px;
   width: 2000px;
   animation: slide 60s linear infinite;
@@ -417,6 +417,6 @@ website:    http://magic.singles
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-5825px, 0, 0);
+    transform: translate3d(0, -5825px, 0);
   }
 }
