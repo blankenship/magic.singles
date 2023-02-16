@@ -408,6 +408,8 @@ website:    http://magic.singles
 
 .sliding-background {
   background: url("/@images/magic.singles.scroll.png") repeat-y;
+  -webkit-background-size: cover;
+  background-size: cover;
   height: 5825px;
   max-width: 100vw;
   animation: slide 80s linear infinite;
