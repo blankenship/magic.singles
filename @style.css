@@ -406,9 +406,9 @@ website:    http://magic.singles
 }
 
 .sliding-background {
-  background: url("..path/to/image") repeat-x;
-  height: 560px;
-  width: 5076px;
+  background: url("/@images/magic.singles.logo.svg") repeat-y;
+  height: 5825px;
+  width: 2000px;
   animation: slide 60s linear infinite;
 }
 
