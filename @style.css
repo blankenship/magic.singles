@@ -412,7 +412,7 @@ website:    http://magic.singles
   background-size: cover;
   height: 5825px;
   max-width: 100vw;
-  animation: slide 80s linear infinite;
+  animation: slide 120s linear infinite;
 }
 
 @keyframes slide{
