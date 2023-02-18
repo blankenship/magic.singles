@@ -44,7 +44,7 @@ website:    http://magic.singles
     html {
         font-size: 15px;
     }
-/* 
+
     body {
         background-color: #b4b4b4;
         color: #393939;
@@ -398,7 +398,7 @@ website:    http://magic.singles
         margin: 0 auto;
         width: 100%;
     }
- */
+
 /* HEADER BANNER */
 
 header {
@@ -421,14 +421,14 @@ header p a {
 
 /* SLIDING CONTAINER */
 
-.container {
+.hug {
           background: #181528;
           overflow: hidden;
 }
 
-.sliding-background {
+.scroll {
   background: url("/@images/magic.singles.scroll.png") repeat-y;
-  background-size: calc(100% + 1px);
+  background-size: calc(100% + 2px);
   height: 300vw;
   max-width: 100vw;
   animation: slide 80s linear infinite;
