@@ -404,14 +404,18 @@ website:    http://magic.singles
 header {
           background-color: #9f7c4d;
           color: #fff;
-          font-family: -apple-system, BlinkMacSystemFont, sans-serif;
           height: 2rem;
           margin: 0 auto;
           padding: 1rem 0;
           text-align: center;
 }
 
+header p {
+         font: 500 2em/2rem -apple-system, BlinkMacSystemFont, sans-serif;
+]
+          
 header a {
+          color: #fff;
           text-decoration: none;
 }
 
