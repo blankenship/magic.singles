@@ -414,7 +414,7 @@ header p {
          font: 500 2em/2rem -apple-system, BlinkMacSystemFont, sans-serif;
 ]
           
-header a {
+header p a {
           color: #fff;
           text-decoration: none;
 }
@@ -423,12 +423,13 @@ header a {
 
 .container {
           background: #181528;
+          display: relative;
           overflow: hidden;
 }
 
 .sliding-background {
   background: url("/@images/magic.singles.scroll.png") repeat-y;
-  background-size: calc(100% + 2px);
+  background-size: calc(100% + 1px);
   height: 300vw;
   max-width: 100vw;
   animation: slide 80s linear infinite;
