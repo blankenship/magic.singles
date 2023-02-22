@@ -4,7 +4,7 @@ Masthead:   magic.singles
 Sellline:   Singleton & Ready to Mingleton
 
 version:    1.0 — 12/31/19
-upkeep:     2.1 — 04/15/20
+upkeep:     3.0 — 12/16/23
 
 author:     Joshua Blankenship
 email:      joshua@blankenship.xyz
@@ -398,3 +398,50 @@ website:    http://magic.singles
         margin: 0 auto;
         width: 100%;
     }
+
+/* HEADER BANNER */
+
+header {
+          background-color: #9f7c4d;
+          color: #fff;
+          height: 2rem;
+          margin: 0 auto;
+          padding: 1rem 0;
+          text-align: center;
+}
+
+header p {
+         font: 500 2em/2rem -apple-system, BlinkMacSystemFont, sans-serif;
+]
+          
+header p a {
+          color: #fff;
+          text-decoration: none;
+}
+
+/* SLIDING CONTAINER */
+
+.hug {
+          background: #181528;
+          overflow: hidden;
+}
+
+.scroll {
+  background: url("/@images/magic.singles.scroll.png") repeat-y;
+  background-size: calc(100% + 2px);
+  height: 300vw;
+  max-width: 100vw;
+  animation: slide 80s linear infinite;
+}
+
+@keyframes slide{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -245vw, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
