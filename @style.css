@@ -431,7 +431,7 @@ header p a {
   background-size: calc(100% + 2px);
   height: 300vw;
   max-width: 100vw;
-  animation: slide 80s linear infinite;
+  animation: slide 100s linear infinite;
 }
 
 @keyframes slide{
